@@ -1,37 +1,32 @@
-function circle()
-{
+canvas = document.getElementById("myCanvas");
+ctx = canvas.getContext("2d");
+
 ctx.beginPath();
-color = blue;
-ctx.strokeStyle = color;
+ctx.strokeStyle = "blue";
 ctx.lineWidth = 2;
-ctx.arc(250, 270 ,0 , 2*Math.PI);
+ctx.arc(250, 270 ,40,0 , 2*Math.PI);
 ctx.stroke();
 
 ctx.beginPath();
-color = black;
-ctx.strokeStyle = color;
+ctx.strokeStyle = "black";
 ctx.lineWidth = 2;
-ctx.arc(280, 270 ,0 , 2*Math.PI);
+ctx.arc(350, 270 ,40,0 , 2*Math.PI);
 ctx.stroke();
 
 ctx.beginPath();
-color = red;
-ctx.strokeStyle = color;
+ctx.strokeStyle = "red";
 ctx.lineWidth = 2;
-ctx.arc(310, 270 ,0 , 2*Math.PI);
+ctx.arc(450, 270 ,40,0 , 2*Math.PI);
 ctx.stroke();
 
 ctx.beginPath();
-color = yellow;
-ctx.strokeStyle = color;
+ctx.strokeStyle = "yellow";
 ctx.lineWidth = 2;
-ctx.arc(265, 240 ,0 , 2*Math.PI);
+ctx.arc(300, 320 ,40,0 , 2*Math.PI);
 ctx.stroke();
 
 ctx.beginPath();
-color = green;
-ctx.strokeStyle = color;
+ctx.strokeStyle = "green";
 ctx.lineWidth = 2;
-ctx.arc(295, 240 ,0 , 2*Math.PI);
+ctx.arc(400, 320 ,40,0 , 2*Math.PI);
 ctx.stroke();
-}
